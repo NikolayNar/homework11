@@ -1,0 +1,14 @@
+@media (min-width: 400px) {
+    .nav__wrapper {
+        justify-content: space-between;
+    }
+    
+    .block__wrapper {
+        display: block;
+    }
+
+    .zm div, .r div, .lk div, .v div, .fa div {
+        display: flex;
+        justify-content: space-around;
+    }
+}

@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+    padding: 0 16px;
+}
+
+.header__mini-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.header_welcome {
+    color: $main-text-color;
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 16px;
+}
+
+.header__memu {
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}

@@ -1,0 +1,21 @@
+.nav__wrapper {
+    display: flex;
+    padding: 16px 0 0 16px;
+    overflow: scroll;
+
+    div {
+        @extend %nav-btn;
+    }
+
+    div:active {
+        background-color: $text-color;
+    }
+
+    p {
+        @extend %nav-text;
+    }
+    
+    p:active {
+        color: white;
+    }
+}
